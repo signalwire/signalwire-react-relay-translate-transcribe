@@ -1,0 +1,21 @@
+{
+  "name": "signalwire-relay-transcription-translate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "consumer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^4.10.0",
+    "@google-cloud/translate": "^6.3.1",
+    "@signalwire/node": "^2.4.0",
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "dotenv": "^16.0.0",
+    "node-json-db": "^1.5.0"
+  }
+}
